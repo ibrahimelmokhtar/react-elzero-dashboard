@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Elzero Dashboard
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Elzero Dashboard](#elzero-dashboard)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Installed NPM Packages](#installed-npm-packages)
+    - [Production Packages](#production-packages)
+    - [Development Packages](#development-packages)
+  - [Useful Resources](#useful-resources)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[(Back to top)](#table-of-contents)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To use this project locally, you need to follow the commands below:
 
-### `npm test`
+1. Clone the repository into your local machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/ibrahimelmokhtar/react-elzero-dashboard.git
+   ```
 
-### `npm run build`
+2. Redirect inside the cloned repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   cd react-elzero-dashboard/
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the required packages:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+4. Start local server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installed NPM Packages
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[(Back to top)](#table-of-contents)
 
-## Learn More
+These packages are required to run this project smoothly without any errors.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Production Packages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+These packages can be found in the `"dependencies"` object inside the `package.json` file.
 
-### Code Splitting
+- [@fontsource/open-sans](https://www.npmjs.com/package/@fontsource/open-sans) - Self-host the Open Sans font in a neatly bundled NPM package.
+- [normalize.css](https://www.npmjs.com/package/normalize.css) - A modern alternative to CSS resets.
+- [react-icons](https://www.npmjs.com/package/react-icons) - SVG React icons of popular icon packs using ES6 imports.
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom) - Declarative routing for React web applications.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Development Packages
 
-### Analyzing the Bundle Size
+These packages can be found in the `"devDependencies"` object inside the `package.json` file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [prettier](https://www.npmjs.com/package/prettier) - Prettier is an opinionated code formatter.
+- [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss) - A Prettier plugin for sorting Tailwind CSS classes.
+- [tailwindcss](https://www.npmjs.com/package/tailwindcss) - A utility-first CSS framework for rapidly building custom user interfaces.
+- [autoprefixer](https://www.npmjs.com/package/autoprefixer) - Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website.
+- [postcss](https://www.npmjs.com/package/postcss) - Tool for transforming styles with JS plugins.
 
-### Making a Progressive Web App
+## Useful Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[(Back to top)](#table-of-contents)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Documentation: Install Tailwind CSS with Create React App](https://tailwindcss.com/docs/guides/create-react-app)
+- [Article: Automatic Class Sorting with Prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
+- [Stackoverflow: Install Fonts using npm](https://stackoverflow.com/questions/47803088/how-do-install-fonts-using-npm)
+- [Documentation: Using React Icons](https://react-icons.github.io/react-icons/)
+- [Documentation: Normalize.css](https://necolas.github.io/normalize.css/)
+- [Documentation: React Router](https://v5.reactrouter.com/web/guides/quick-start)
