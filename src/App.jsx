@@ -1,19 +1,27 @@
-import { FaUserSecret } from 'react-icons/fa';
 import { Routes, Route } from 'react-router-dom';
+import DashboardPage from './pages/DashboardPage';
+import ProfilePage from './pages/ProfilePage';
+import ProjectsPage from './pages/ProjectsPage';
+import CoursesPage from './pages/CoursesPage';
+import FriendsPage from './pages/FriendsPage';
+import FilesPage from './pages/FilesPage';
+import PlansPage from './pages/PlansPage';
+import SettingsPage from './pages/SettingsPage';
 
 function App() {
 	return (
-		<Routes>
-			<Route
-				path='/'
-				element={
-					<div className='h-full p-8'>
-						<FaUserSecret size='30' />
-						<h1 className='py-3 text-3xl font-bold underline'>Hello world!</h1>
-					</div>
-				}
-			/>
-		</Routes>
+		<div>
+			<Routes>
+				<Route exact path='/' element={<DashboardPage />} />
+				<Route exact path='/settings' element={<SettingsPage />} />
+				<Route exact path='/profile' element={<ProfilePage />} />
+				<Route exact path='/projects' element={<ProjectsPage />} />
+				<Route exact path='/courses' element={<CoursesPage />} />
+				<Route exact path='/friends' element={<FriendsPage />} />
+				<Route exact path='/files' element={<FilesPage />} />
+				<Route exact path='/plans' element={<PlansPage />} />
+			</Routes>
+		</div>
 	);
 }
 

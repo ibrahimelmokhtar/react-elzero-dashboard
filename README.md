@@ -7,10 +7,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Elzero Dashboard](#elzero-dashboard)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
+  - [Available Routes](#available-routes)
+    - [`Home` Page](#home-page)
+    - [`Settings` Page](#settings-page)
+    - [`Profile` Page](#profile-page)
+    - [`Projects` Page](#projects-page)
+    - [`Courses` Page](#courses-page)
+    - [`Friends` Page](#friends-page)
+    - [`Files` Page](#files-page)
+    - [`Plans` Page](#plans-page)
   - [Installed NPM Packages](#installed-npm-packages)
     - [Production Packages](#production-packages)
     - [Development Packages](#development-packages)
   - [Useful Resources](#useful-resources)
+  - [Credits & Assets](#credits--assets)
 
 ## Installation
 
@@ -43,6 +53,26 @@ To use this project locally, you need to follow the commands below:
    ```
 
 5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Available Routes
+
+[(Back to top)](#table-of-contents)
+
+### `Home` Page
+
+### `Settings` Page
+
+### `Profile` Page
+
+### `Projects` Page
+
+### `Courses` Page
+
+### `Friends` Page
+
+### `Files` Page
+
+### `Plans` Page
 
 ## Installed NPM Packages
 
@@ -79,3 +109,11 @@ These packages can be found in the `"devDependencies"` object inside the `packag
 - [Documentation: Using React Icons](https://react-icons.github.io/react-icons/)
 - [Documentation: Normalize.css](https://necolas.github.io/normalize.css/)
 - [Documentation: React Router](https://v5.reactrouter.com/web/guides/quick-start)
+- [Documentation: Tailwind CSS Custom Colors](https://tailwindcss.com/docs/customizing-colors)
+
+## Credits & Assets
+
+- Website Image Preview Template is from [ElZero Web School](https://elzero.org/)
+- Favicon is from [FlatIcon](https://www.flaticon.com/)
+- Images are from [Unsplash](https://unsplash.com/)
+- Fonts are from [Google Fonts](https://fonts.google.com/)
