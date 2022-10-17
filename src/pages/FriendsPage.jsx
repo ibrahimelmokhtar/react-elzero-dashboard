@@ -2,13 +2,9 @@ import React from 'react';
 import GenericPage from './_GenericPage';
 
 const FriendsPage = () => {
-	const pageContent = (
-		<div>
-			<h2>Friends Page</h2>
-		</div>
-	);
+	const pageContent = <div></div>;
 
-	return <GenericPage pageContent={pageContent} />;
+	return <GenericPage pageTitle='friends' pageContent={pageContent} />;
 };
 
 export default FriendsPage;

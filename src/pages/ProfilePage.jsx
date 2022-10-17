@@ -2,13 +2,9 @@ import React from 'react';
 import GenericPage from './_GenericPage';
 
 const ProfilePage = () => {
-	const pageContent = (
-		<div>
-			<h2>Profile Page</h2>
-		</div>
-	);
+	const pageContent = <div></div>;
 
-	return <GenericPage pageContent={pageContent} />;
+	return <GenericPage pageTitle='profile' pageContent={pageContent} />;
 };
 
 export default ProfilePage;

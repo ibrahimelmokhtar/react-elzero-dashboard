@@ -2,13 +2,9 @@ import React from 'react';
 import GenericPage from './_GenericPage';
 
 const ProjectsPage = () => {
-	const pageContent = (
-		<div>
-			<h2>Projects Page</h2>
-		</div>
-	);
+	const pageContent = <div></div>;
 
-	return <GenericPage pageContent={pageContent} />;
+	return <GenericPage pageTitle='projects' pageContent={pageContent} />;
 };
 
 export default ProjectsPage;
