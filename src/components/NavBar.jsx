@@ -19,7 +19,7 @@ const NavBar = () => {
 	const dashboardLogoText = 'elzero';
 
 	return (
-		<aside className='sticky top-0 left-0 z-10 flex h-screen w-fit flex-col items-center justify-center bg-white px-4 py-2 shadow-lg shadow-slate-400 md:w-64 md:justify-start'>
+		<aside className='sticky top-0 left-0 z-20 flex h-screen w-fit flex-col items-center justify-center bg-white px-4 py-2 shadow-lg shadow-slate-400 md:w-64 md:justify-start'>
 			{/* Dashboard Main Logo */}
 			<div className='relative'>
 				<Link to='/'>

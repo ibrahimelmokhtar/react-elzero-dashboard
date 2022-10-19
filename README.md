@@ -68,6 +68,9 @@ To use this project locally, you need to follow the commands below:
 
 ### `Courses` Page
 
+- Route: `/courses`
+- Description: Displays list of courses based on data retrieved from a specific JSON file, [courses.json](s/../src/data/courses.json).
+
 ### `Friends` Page
 
 ### `Files` Page

@@ -11,7 +11,7 @@ const Avatar = ({
 		<div
 			className={`${
 				isRounded ? 'rounded-full' : ''
-			} flex items-center justify-center border-2 ${borderColor}`}
+			} flex items-center justify-center overflow-hidden border-2 ${borderColor}`}
 		>
 			<img src={src} alt='Avatar Thumbnail' width={size} height={size} />
 		</div>

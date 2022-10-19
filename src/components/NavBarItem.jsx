@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import NavBarIcon from './NavBarIcon';
+import Tooltip from './Tooltip';
 
 const NavBarItem = ({ icon, title }) => {
 	return (
@@ -18,15 +19,19 @@ const NavBarItem = ({ icon, title }) => {
 				<NavBarIcon icon={icon} />
 
 				{/* NavBar Title */}
-				<span className='hidden font-semibold capitalize sm:hidden md:block'>
+				<span className='hidden font-semibold capitalize md:block'>
 					{title}
 				</span>
 
 				{/* Side Tooltip */}
-				<div className='absolute top-1/2 -right-2 z-10 translate-x-full -translate-y-1/2 transform rounded-lg border border-black bg-black py-2 px-3 text-sm font-semibold capitalize text-white opacity-0 shadow-sm shadow-slate-400 duration-300 group-hover:opacity-100 md:hidden'>
-					{title}
-					{/* Tooltip Left Arrow */}
-					<span className='absolute top-1/2 left-0 h-0 w-0 -translate-x-full -translate-y-1/2 transform border-8 border-black border-b-transparent border-l-transparent border-t-transparent'></span>
+				<div className='block md:hidden'>
+					<Tooltip
+						content={title}
+						bgColor='black'
+						textColor='white'
+						shadowColor='slate-400'
+						position='right' // will be on the right of the parent component
+					/>
 				</div>
 			</NavLink>
 		</li>

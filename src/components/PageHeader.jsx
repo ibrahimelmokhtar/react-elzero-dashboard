@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { BsSearch } from 'react-icons/bs';
 import { FaRegBell } from 'react-icons/fa';
 import Avatar from './Avatar';
-import accountImage from '../images/account-avatar.png';
 
 const PageHeader = () => {
 	// Control Notifications State
@@ -12,7 +11,7 @@ const PageHeader = () => {
 	};
 
 	return (
-		<header className='z-9 sticky top-0 left-0 flex w-full items-center justify-between bg-white px-4 py-4 shadow-md shadow-slate-400 md:px-6'>
+		<header className='sticky top-0 left-0 z-10 flex w-full items-center justify-between bg-white px-4 py-4 shadow-md shadow-slate-400 md:px-6'>
 			{/* Search Bar */}
 			<div className='flex items-center rounded-xl border border-gray-400 p-1 px-2'>
 				{/* Search Icon */}
@@ -50,7 +49,7 @@ const PageHeader = () => {
 
 				{/* Avatar Thumbnail */}
 				<div className='cursor-pointer'>
-					<Avatar src={accountImage} size={30} />
+					<Avatar src={require('../images/account-avatar.png')} size={30} />
 				</div>
 			</div>
 		</header>

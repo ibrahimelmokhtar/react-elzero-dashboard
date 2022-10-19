@@ -25,7 +25,8 @@ const GenericPage = ({ pageTitle, pageContent }) => {
 					{/* Main Page Title */}
 					<PageTitle title={pageTitle} />
 
-					{pageContent}
+					{/* Current Page Content */}
+					<section>{pageContent}</section>
 				</div>
 			</main>
 		</div>
